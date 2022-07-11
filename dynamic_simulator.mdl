@@ -1,12 +1,12 @@
 Model {
-  Name			  "Simulacao_TCC_Final"
+  Name			  "dynamic_simulator"
   Version		  9.1
-  SavedCharacterEncoding  "windows-1252"
+  SavedCharacterEncoding  "UTF-8"
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.65"
+    ComputedModelVersion    "1.67"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -19,176 +19,177 @@ Model {
     NumExternalFileReferences 26
     ExternalFileReference {
       Reference		      "aerolibanim/6DoF Animation"
-      Path		      "Simulacao_TCC_Final/6DoF Animation"
+      Path		      "dynamic_simulator/6DoF Animation"
       SID		      "1289"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Aerodynamic Torque/Calculo da Posição no Corpo/Matrix de Rotação em X/Create 3x"
-      "3 Matrix"
+      Path		      "dynamic_simulator/Aerodynamic Torque/Calculo da PosiÃ§Ã£o no Corpo/Matrix de RotaÃ§Ã£o em X/Create "
+      "3x3 Matrix"
       SID		      "2269"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Aerodynamic Torque/Calculo da Posição no Corpo/Matrix de Rotação em Y/Create 3x"
-      "3 Matrix"
+      Path		      "dynamic_simulator/Aerodynamic Torque/Calculo da PosiÃ§Ã£o no Corpo/Matrix de RotaÃ§Ã£o em Y/Create "
+      "3x3 Matrix"
       SID		      "2283"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Aerodynamic Torque/Calculo da Posição no Corpo/Matrix de Rotação em Z/Create 3x"
-      "3 Matrix"
+      Path		      "dynamic_simulator/Aerodynamic Torque/Calculo da PosiÃ§Ã£o no Corpo/Matrix de RotaÃ§Ã£o em Z/Create "
+      "3x3 Matrix"
       SID		      "2297"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Aerodynamic Torque/Calculo da Posição no Corpo2/Matrix de Rotação em X/Create 3"
-      "x3 Matrix"
+      Path		      "dynamic_simulator/Aerodynamic Torque/Calculo da PosiÃ§Ã£o no Corpo2/Matrix de RotaÃ§Ã£o em X/Create"
+      " 3x3 Matrix"
       SID		      "2325"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Aerodynamic Torque/Calculo da Posição no Corpo2/Matrix de Rotação em Y/Create 3"
-      "x3 Matrix"
+      Path		      "dynamic_simulator/Aerodynamic Torque/Calculo da PosiÃ§Ã£o no Corpo2/Matrix de RotaÃ§Ã£o em Y/Create"
+      " 3x3 Matrix"
       SID		      "2339"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Aerodynamic Torque/Calculo da Posição no Corpo2/Matrix de Rotação em Z/Create 3"
-      "x3 Matrix"
+      Path		      "dynamic_simulator/Aerodynamic Torque/Calculo da PosiÃ§Ã£o no Corpo2/Matrix de RotaÃ§Ã£o em Z/Create"
+      " 3x3 Matrix"
       SID		      "2353"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "vrlib/Utilities/Normalize Vector"
-      Path		      "Simulacao_TCC_Final/Aerodynamic Torque/Normalize Vector"
+      Path		      "dynamic_simulator/Aerodynamic Torque/Normalize Vector"
       SID		      "2392"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Earth's Magnetic Field SCS/Matrix de Rotação em X/Create 3x3 Matrix"
+      Path		      "dynamic_simulator/Earth's Magnetic Field SCS/Matrix de RotaÃ§Ã£o em X/Create 3x3 Matrix"
       SID		      "1192"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Earth's Magnetic Field SCS/Matrix de Rotação em Y/Create 3x3 Matrix"
+      Path		      "dynamic_simulator/Earth's Magnetic Field SCS/Matrix de RotaÃ§Ã£o em Y/Create 3x3 Matrix"
       SID		      "1210"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Earth's Magnetic Field SCS/Matrix de Rotação em Z/Create 3x3 Matrix"
+      Path		      "dynamic_simulator/Earth's Magnetic Field SCS/Matrix de RotaÃ§Ã£o em Z/Create 3x3 Matrix"
       SID		      "1229"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Earth's Magnetic Field SGF/SGF para SGG/Matriz Rotação ao Redor de Z Antihorária"
+      Path		      "dynamic_simulator/Earth's Magnetic Field SGF/SGF para SGG/Matriz RotaÃ§Ã£o ao Redor de Z AntihorÃ¡r"
+      "ia"
       SID		      "214"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "simulink/Sources/Ramp"
-      Path		      "Simulacao_TCC_Final/Earth's Magnetic Field SGF/SGF para SGG/Rotação da Terra"
+      Path		      "dynamic_simulator/Earth's Magnetic Field SGF/SGF para SGG/RotaÃ§Ã£o da Terra"
       SID		      "215"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Earth's Magnetic Field SGF/SGF para SGG1/Matriz Rotação ao Redor de Z Antihorár"
-      "ia"
+      Path		      "dynamic_simulator/Earth's Magnetic Field SGF/SGF para SGG1/Matriz RotaÃ§Ã£o ao Redor de Z AntihorÃ¡"
+      "ria"
       SID		      "232"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Earth's Magnetic Field SGF/SGF para SGG2/Matriz Rotação ao Redor de Z Antihorár"
-      "ia"
+      Path		      "dynamic_simulator/Earth's Magnetic Field SGF/SGF para SGG2/Matriz RotaÃ§Ã£o ao Redor de Z AntihorÃ¡"
+      "ria"
       SID		      "249"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Earth's Magnetic Field SGF/SGF para SGG3/Matriz Rotação ao Redor de Z Antihorár"
-      "ia"
+      Path		      "dynamic_simulator/Earth's Magnetic Field SGF/SGF para SGG3/Matriz RotaÃ§Ã£o ao Redor de Z AntihorÃ¡"
+      "ria"
       SID		      "265"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "simulink/Sources/Ramp"
-      Path		      "Simulacao_TCC_Final/Earth's Magnetic Field SGF/SGF para SGG3/Rotação da Terra"
+      Path		      "dynamic_simulator/Earth's Magnetic Field SGF/SGF para SGG3/RotaÃ§Ã£o da Terra"
       SID		      "266"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Gradient Gravity Torque/Calculo da Posição no Corpo/Matrix de Rotação em X/Crea"
-      "te 3x3 Matrix"
+      Path		      "dynamic_simulator/Gradient Gravity Torque/Calculo da PosiÃ§Ã£o no Corpo/Matrix de RotaÃ§Ã£o em X/Cr"
+      "eate 3x3 Matrix"
       SID		      "1250"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Gradient Gravity Torque/Calculo da Posição no Corpo/Matrix de Rotação em Y/Crea"
-      "te 3x3 Matrix"
+      Path		      "dynamic_simulator/Gradient Gravity Torque/Calculo da PosiÃ§Ã£o no Corpo/Matrix de RotaÃ§Ã£o em Y/Cr"
+      "eate 3x3 Matrix"
       SID		      "1264"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Gradient Gravity Torque/Calculo da Posição no Corpo/Matrix de Rotação em Z/Crea"
-      "te 3x3 Matrix"
+      Path		      "dynamic_simulator/Gradient Gravity Torque/Calculo da PosiÃ§Ã£o no Corpo/Matrix de RotaÃ§Ã£o em Z/Cr"
+      "eate 3x3 Matrix"
       SID		      "1278"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "vrlib/Utilities/Cross Product"
-      Path		      "Simulacao_TCC_Final/Gradient Gravity Torque/Cross Product"
+      Path		      "dynamic_simulator/Gradient Gravity Torque/Cross Product"
       SID		      "993"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Gradient Gravity Torque/Matriz de Inercia"
+      Path		      "dynamic_simulator/Gradient Gravity Torque/Matriz de Inercia"
       SID		      "1003"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "vrlib/Utilities/Normalize Vector"
-      Path		      "Simulacao_TCC_Final/Gradient Gravity Torque/Normalize Vector"
+      Path		      "dynamic_simulator/Gradient Gravity Torque/Normalize Vector"
       SID		      "1004"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "vrlib/Utilities/Cross Product"
-      Path		      "Simulacao_TCC_Final/Hysteresis Torque/Cross Product"
+      Path		      "dynamic_simulator/Hysteresis Torque/Cross Product"
       SID		      "463"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "vrlib/Utilities/Cross Product"
-      Path		      "Simulacao_TCC_Final/Magnetic Torque/Cross Product"
+      Path		      "dynamic_simulator/Magnetic Torque/Cross Product"
       SID		      "424"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "sharedutil/Create 3x3 Matrix"
-      Path		      "Simulacao_TCC_Final/Rotational Dynamics   Euler's Equation/Euler Angles/Create 3x3 Matrix"
+      Path		      "dynamic_simulator/Rotational Dynamics   Euler's Equation/Euler Angles/Create 3x3 Matrix"
       SID		      "695"
       Type		      "LIBRARY_BLOCK"
     }
     OrderedModelArguments   1
   }
   DiagnosticSuppressor	  "on"
-  SuppressorTable	  "22 serialization::archive 11 0 6 0 0 0 8 0"
+  SuppressorTable	  "22 serialization::archive 11 0 6 0 0 0 1 0"
   Notes			  ""
   NotesPlugin		  "on"
   LogicAnalyzerGraphicalSettings ""
@@ -205,7 +206,7 @@ Model {
   MinMaxOverflowArchiveMode "Overwrite"
   FPTRunName		  "Run 1"
   MaxMDLFileLineLength	  120
-  LastSavedArchitecture	  "win64"
+  LastSavedArchitecture	  "glnxa64"
   Object {
     $PropName		    "BdWindowsInfo"
     $ObjectID		    1
@@ -215,7 +216,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-7.0, -7.0, 1550.0, 838.0]
+      Location		      [1920.0, 32.0, 1920.0, 1048.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -239,9 +240,9 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[1875.0, 833.0]
-	ZoomFactor		[0.79999999999999982]
-	Offset			[-220.40938058793529, 33.539578639468004]
+	Extents			[1882.0, 859.0]
+	ZoomFactor		[0.8]
+	Offset			[-398.29319860297085, -143.9310673962857]
       }
       Object {
 	$PropName		"DockComponentsInfo"
@@ -254,18 +255,18 @@ Model {
 	UserData		""
 	Floating		[0]
 	DockPosition		"Right"
-	Width			[512]
-	Height			[384]
+	Width			[640]
+	Height			[480]
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAAB4AP///wAAAAEAAAAAAAAAAPwCA"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABiAP///wAAAAEAAAAAAAAAAPwCA"
       "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
-      "QBjAHQAbwByAAAAAAD/////AAAANAD///8AAAeAAAADhgAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
+      "QBjAHQAbwByAAAAAAD/////AAAALAD///8AAAeAAAADmgAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
       "////wEAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
-      "////wEAAACR/////wAAAAAAAAAA/////wEAAAEE/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAGV/////wAAAAAAAAAA/"
-      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAPG/////wAAAAAAAAAA/"
-      "////wEAAAP+/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
+      "////wEAAACA/////wAAAAAAAAAA/////wEAAADo/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAFo/////wAAAAAAAAAA/"
+      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAOH/////wAAAAAAAAAA/"
+      "////wEAAAO5/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
     }
   }
   HideAutomaticNames	  on
@@ -273,11 +274,11 @@ Model {
   Creator		  "Lucas"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "Lucas"
+  LastModifiedBy	  "root"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Jun 04 22:59:13 2019"
-  RTWModifiedTimeStamp	  481588199
-  ModelVersionFormat	  "1.%<AutoIncrement:65>"
+  LastModifiedDate	  "Mon Jul 11 09:56:30 2022"
+  RTWModifiedTimeStamp	  579434181
+  ModelVersionFormat	  "1.%<AutoIncrement:67>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -333,12 +334,12 @@ Model {
     $PropName		    "DataLoggingOverride"
     $ObjectID		    7
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
-    model_		    "Simulacao_TCC_Final"
+    model_		    "dynamic_simulator"
     overrideMode_	    [0.0]
     Array {
       Type		      "Cell"
       Dimension		      1
-      Cell		      "Simulacao_TCC_Final"
+      Cell		      "dynamic_simulator"
       PropName		      "logAsSpecifiedByModels_"
     }
     Array {
@@ -1719,8 +1720,8 @@ Model {
     }
   }
   System {
-    Name		    "Simulacao_TCC_Final"
-    Location		    [-7, -7, 1543, 831]
+    Name		    "dynamic_simulator"
+    Location		    [1920, 32, 3840, 1080]
     Open		    on
     PortBlocksUseCompactNotation off
     SetDomainSpec	    off
@@ -1737,7 +1738,7 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "80"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "2448"
+    SIDHighWatermark	    "2451"
     Block {
       BlockType		      Reference
       Name		      "6DoF Animation"
@@ -1833,14 +1834,14 @@ Model {
 	}
 	Block {
 	  BlockType		  SubSystem
-	  Name			  "Calculo da Posição no Corpo"
+	  Name			  "Calculo da PosiÃ§Ã£o no Corpo"
 	  SID			  "2255"
 	  Ports			  [2, 1]
 	  Position		  [315, 5, 455, 165]
 	  ZOrder		  1231
 	  RequestExecContextInheritance	off
 	  System {
-	    Name		    "Calculo da Posição no Corpo"
+	    Name		    "Calculo da PosiÃ§Ã£o no Corpo"
 	    Location		    [-7, -7, 1543, 831]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -1859,7 +1860,7 @@ Model {
 	    ZoomFactor		    "80"
 	    Block {
 	      BlockType		      Inport
-	      Name		      "Direção_Força_SGF"
+	      Name		      "DireÃ§Ã£o_ForÃ§a_SGF"
 	      SID		      "2256"
 	      Position		      [980, 623, 1010, 637]
 	      ZOrder		      1050
@@ -1926,7 +1927,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      SubSystem
-	      Name		      "Matrix de Rotação em X"
+	      Name		      "Matrix de RotaÃ§Ã£o em X"
 	      SID		      "2262"
 	      Ports		      [1, 1]
 	      Position		      [270, 294, 525, 356]
@@ -1934,7 +1935,7 @@ Model {
 	      RequestExecContextInheritance off
 	      ContentPreviewEnabled   on
 	      System {
-		Name			"Matrix de Rotação em X"
+		Name			"Matrix de RotaÃ§Ã£o em X"
 		Location		[-7, -7, 1543, 831]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -2060,7 +2061,7 @@ Model {
 		}
 		Block {
 		  BlockType		  Outport
-		  Name			  "Matrix Rotação\n em X"
+		  Name			  "Matrix RotaÃ§Ã£o\n em X"
 		  SID			  "2275"
 		  Position		  [465, 143, 495, 157]
 		  ZOrder		  -2
@@ -2176,14 +2177,14 @@ Model {
 		  ZOrder		  18
 		  SrcBlock		  "Create 3x3 Matrix"
 		  SrcPort		  1
-		  DstBlock		  "Matrix Rotação\n em X"
+		  DstBlock		  "Matrix RotaÃ§Ã£o\n em X"
 		  DstPort		  1
 		}
 	      }
 	    }
 	    Block {
 	      BlockType		      SubSystem
-	      Name		      "Matrix de Rotação em Y"
+	      Name		      "Matrix de RotaÃ§Ã£o em Y"
 	      SID		      "2276"
 	      Ports		      [1, 1]
 	      Position		      [270, 399, 525, 461]
@@ -2191,7 +2192,7 @@ Model {
 	      RequestExecContextInheritance off
 	      ContentPreviewEnabled   on
 	      System {
-		Name			"Matrix de Rotação em Y"
+		Name			"Matrix de RotaÃ§Ã£o em Y"
 		Location		[-7, -7, 1543, 831]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -2317,7 +2318,7 @@ Model {
 		}
 		Block {
 		  BlockType		  Outport
-		  Name			  "Matrix Rotação\n em Y"
+		  Name			  "Matrix RotaÃ§Ã£o\n em Y"
 		  SID			  "2289"
 		  Position		  [465, 143, 495, 157]
 		  ZOrder		  -2
@@ -2327,7 +2328,7 @@ Model {
 		  ZOrder		  1
 		  SrcBlock		  "Create 3x3 Matrix"
 		  SrcPort		  1
-		  DstBlock		  "Matrix Rotação\n em Y"
+		  DstBlock		  "Matrix RotaÃ§Ã£o\n em Y"
 		  DstPort		  1
 		}
 		Line {
@@ -2440,7 +2441,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      SubSystem
-	      Name		      "Matrix de Rotação em Z"
+	      Name		      "Matrix de RotaÃ§Ã£o em Z"
 	      SID		      "2290"
 	      Ports		      [1, 1]
 	      Position		      [270, 504, 525, 566]
@@ -2448,7 +2449,7 @@ Model {
 	      RequestExecContextInheritance off
 	      ContentPreviewEnabled   on
 	      System {
-		Name			"Matrix de Rotação em Z"
+		Name			"Matrix de RotaÃ§Ã£o em Z"
 		Location		[-7, -7, 1543, 831]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -2574,7 +2575,7 @@ Model {
 		}
 		Block {
 		  BlockType		  Outport
-		  Name			  "Matrix Rotação\n em Z"
+		  Name			  "Matrix RotaÃ§Ã£o\n em Z"
 		  SID			  "2303"
 		  Position		  [660, 178, 690, 192]
 		  ZOrder		  -2
@@ -2584,7 +2585,7 @@ Model {
 		  ZOrder		  1
 		  SrcBlock		  "Create 3x3 Matrix"
 		  SrcPort		  1
-		  DstBlock		  "Matrix Rotação\n em Z"
+		  DstBlock		  "Matrix RotaÃ§Ã£o\n em Z"
 		  DstPort		  1
 		}
 		Line {
@@ -2697,7 +2698,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "DIreção_Força_SCS"
+	      Name		      "DIreÃ§Ã£o_ForÃ§a_SCS"
 	      SID		      "2304"
 	      Position		      [1380, 478, 1410, 492]
 	      ZOrder		      -2
@@ -2705,7 +2706,7 @@ Model {
 	    }
 	    Line {
 	      ZOrder		      1
-	      SrcBlock		      "Direção_Força_SGF"
+	      SrcBlock		      "DireÃ§Ã£o_ForÃ§a_SGF"
 	      SrcPort		      1
 	      Points		      [60, 0; 0, -135]
 	      DstBlock		      "Matrix Multiply"
@@ -2715,12 +2716,12 @@ Model {
 	      ZOrder		      2
 	      SrcBlock		      "Matrix Multiply"
 	      SrcPort		      1
-	      DstBlock		      "DIreção_Força_SCS"
+	      DstBlock		      "DIreÃ§Ã£o_ForÃ§a_SCS"
 	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      3
-	      SrcBlock		      "Matrix de Rotação em X"
+	      SrcBlock		      "Matrix de RotaÃ§Ã£o em X"
 	      SrcPort		      1
 	      Points		      [63, 0; 0, 45]
 	      DstBlock		      "Matrix Multiply1"
@@ -2737,12 +2738,12 @@ Model {
 	      ZOrder		      5
 	      SrcBlock		      "Demux1"
 	      SrcPort		      3
-	      DstBlock		      "Matrix de Rotação em Z"
+	      DstBlock		      "Matrix de RotaÃ§Ã£o em Z"
 	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      6
-	      SrcBlock		      "Matrix de Rotação em Z"
+	      SrcBlock		      "Matrix de RotaÃ§Ã£o em Z"
 	      SrcPort		      1
 	      Points		      [140, 0; 0, -50]
 	      DstBlock		      "Matrix Multiply2"
@@ -2750,7 +2751,7 @@ Model {
 	    }
 	    Line {
 	      ZOrder		      7
-	      SrcBlock		      "Matrix de Rotação em Y"
+	      SrcBlock		      "Matrix de RotaÃ§Ã£o em Y"
 	      SrcPort		      1
 	      Points		      [63, 0; 0, -40]
 	      DstBlock		      "Matrix Multiply1"
@@ -2760,7 +2761,7 @@ Model {
 	      ZOrder		      8
 	      SrcBlock		      "Demux1"
 	      SrcPort		      2
-	      DstBlock		      "Matrix de Rotação em Y"
+	      DstBlock		      "Matrix de RotaÃ§Ã£o em Y"
 	      DstPort		      1
 	    }
 	    Line {
@@ -2782,21 +2783,21 @@ Model {
 	      ZOrder		      11
 	      SrcBlock		      "Demux1"
 	      SrcPort		      1
-	      DstBlock		      "Matrix de Rotação em X"
+	      DstBlock		      "Matrix de RotaÃ§Ã£o em X"
 	      DstPort		      1
 	    }
 	  }
 	}
 	Block {
 	  BlockType		  SubSystem
-	  Name			  "Calculo da Posição no Corpo2"
+	  Name			  "Calculo da PosiÃ§Ã£o no Corpo2"
 	  SID			  "2305"
 	  Ports			  [3, 1]
 	  Position		  [280, 449, 460, 581]
 	  ZOrder		  1275
 	  RequestExecContextInheritance	off
 	  System {
-	    Name		    "Calculo da Posição no Corpo2"
+	    Name		    "Calculo da PosiÃ§Ã£o no Corpo2"
 	    Location		    [-7, -7, 1543, 831]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -2936,7 +2937,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      SubSystem
-	      Name		      "Matrix de Rotação em X"
+	      Name		      "Matrix de RotaÃ§Ã£o em X"
 	      SID		      "2318"
 	      Ports		      [1, 1]
 	      Position		      [270, 294, 525, 356]
@@ -2944,7 +2945,7 @@ Model {
 	      RequestExecContextInheritance off
 	      ContentPreviewEnabled   on
 	      System {
-		Name			"Matrix de Rotação em X"
+		Name			"Matrix de RotaÃ§Ã£o em X"
 		Location		[-7, -7, 1543, 831]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -3070,7 +3071,7 @@ Model {
 		}
 		Block {
 		  BlockType		  Outport
-		  Name			  "Matrix Rotação\n em X"
+		  Name			  "Matrix RotaÃ§Ã£o\n em X"
 		  SID			  "2331"
 		  Position		  [465, 143, 495, 157]
 		  ZOrder		  -2
@@ -3186,14 +3187,14 @@ Model {
 		  ZOrder		  18
 		  SrcBlock		  "Create 3x3 Matrix"
 		  SrcPort		  1
-		  DstBlock		  "Matrix Rotação\n em X"
+		  DstBlock		  "Matrix RotaÃ§Ã£o\n em X"
 		  DstPort		  1
 		}
 	      }
 	    }
 	    Block {
 	      BlockType		      SubSystem
-	      Name		      "Matrix de Rotação em Y"
+	      Name		      "Matrix de RotaÃ§Ã£o em Y"
 	      SID		      "2332"
 	      Ports		      [1, 1]
 	      Position		      [270, 399, 525, 461]
@@ -3201,7 +3202,7 @@ Model {
 	      RequestExecContextInheritance off
 	      ContentPreviewEnabled   on
 	      System {
-		Name			"Matrix de Rotação em Y"
+		Name			"Matrix de RotaÃ§Ã£o em Y"
 		Location		[-7, -7, 1543, 831]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -3327,7 +3328,7 @@ Model {
 		}
 		Block {
 		  BlockType		  Outport
-		  Name			  "Matrix Rotação\n em Y"
+		  Name			  "Matrix RotaÃ§Ã£o\n em Y"
 		  SID			  "2345"
 		  Position		  [465, 143, 495, 157]
 		  ZOrder		  -2
@@ -3337,7 +3338,7 @@ Model {
 		  ZOrder		  1
 		  SrcBlock		  "Create 3x3 Matrix"
 		  SrcPort		  1
-		  DstBlock		  "Matrix Rotação\n em Y"
+		  DstBlock		  "Matrix RotaÃ§Ã£o\n em Y"
 		  DstPort		  1
 		}
 		Line {
@@ -3450,7 +3451,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      SubSystem
-	      Name		      "Matrix de Rotação em Z"
+	      Name		      "Matrix de RotaÃ§Ã£o em Z"
 	      SID		      "2346"
 	      Ports		      [1, 1]
 	      Position		      [270, 504, 525, 566]
@@ -3458,7 +3459,7 @@ Model {
 	      RequestExecContextInheritance off
 	      ContentPreviewEnabled   on
 	      System {
-		Name			"Matrix de Rotação em Z"
+		Name			"Matrix de RotaÃ§Ã£o em Z"
 		Location		[-7, -7, 1543, 831]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -3584,7 +3585,7 @@ Model {
 		}
 		Block {
 		  BlockType		  Outport
-		  Name			  "Matrix Rotação\n em Z"
+		  Name			  "Matrix RotaÃ§Ã£o\n em Z"
 		  SID			  "2359"
 		  Position		  [660, 178, 690, 192]
 		  ZOrder		  -2
@@ -3594,7 +3595,7 @@ Model {
 		  ZOrder		  1
 		  SrcBlock		  "Create 3x3 Matrix"
 		  SrcPort		  1
-		  DstBlock		  "Matrix Rotação\n em Z"
+		  DstBlock		  "Matrix RotaÃ§Ã£o\n em Z"
 		  DstPort		  1
 		}
 		Line {
@@ -3755,7 +3756,7 @@ Model {
 	    }
 	    Line {
 	      ZOrder		      2
-	      SrcBlock		      "Matrix de Rotação em X"
+	      SrcBlock		      "Matrix de RotaÃ§Ã£o em X"
 	      SrcPort		      1
 	      Points		      [63, 0; 0, 45]
 	      DstBlock		      "Matrix Multiply1"
@@ -3772,12 +3773,12 @@ Model {
 	      ZOrder		      4
 	      SrcBlock		      "Demux1"
 	      SrcPort		      3
-	      DstBlock		      "Matrix de Rotação em Z"
+	      DstBlock		      "Matrix de RotaÃ§Ã£o em Z"
 	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      5
-	      SrcBlock		      "Matrix de Rotação em Z"
+	      SrcBlock		      "Matrix de RotaÃ§Ã£o em Z"
 	      SrcPort		      1
 	      Points		      [140, 0; 0, -50]
 	      DstBlock		      "Matrix Multiply2"
@@ -3785,7 +3786,7 @@ Model {
 	    }
 	    Line {
 	      ZOrder		      6
-	      SrcBlock		      "Matrix de Rotação em Y"
+	      SrcBlock		      "Matrix de RotaÃ§Ã£o em Y"
 	      SrcPort		      1
 	      Points		      [63, 0; 0, -40]
 	      DstBlock		      "Matrix Multiply1"
@@ -3795,7 +3796,7 @@ Model {
 	      ZOrder		      7
 	      SrcBlock		      "Demux1"
 	      SrcPort		      2
-	      DstBlock		      "Matrix de Rotação em Y"
+	      DstBlock		      "Matrix de RotaÃ§Ã£o em Y"
 	      DstPort		      1
 	    }
 	    Line {
@@ -3817,7 +3818,7 @@ Model {
 	      ZOrder		      10
 	      SrcBlock		      "Demux1"
 	      SrcPort		      1
-	      DstBlock		      "Matrix de Rotação em X"
+	      DstBlock		      "Matrix de RotaÃ§Ã£o em X"
 	      DstPort		      1
 	    }
 	    Line {
@@ -3908,7 +3909,7 @@ Model {
 	}
 	Block {
 	  BlockType		  SubSystem
-	  Name			  "Direção da Força SGF"
+	  Name			  "DireÃ§Ã£o da ForÃ§a SGF"
 	  SID			  "2365"
 	  Ports			  [2, 1]
 	  Position		  [60, 15, 250, 75]
@@ -3916,7 +3917,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  ContentPreviewEnabled	  on
 	  System {
-	    Name		    "Direção da Força SGF"
+	    Name		    "DireÃ§Ã£o da ForÃ§a SGF"
 	    Location		    [-7, -7, 1543, 831]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -3935,7 +3936,7 @@ Model {
 	    ZoomFactor		    "100"
 	    Block {
 	      BlockType		      Inport
-	      Name		      "Direção Força\nMRF"
+	      Name		      "DireÃ§Ã£o ForÃ§a\nMRF"
 	      SID		      "2366"
 	      Position		      [230, 308, 260, 322]
 	      ZOrder		      -1
@@ -4056,7 +4057,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "Direção Força\nSGF"
+	      Name		      "DireÃ§Ã£o ForÃ§a\nSGF"
 	      SID		      "2379"
 	      Position		      [770, 163, 800, 177]
 	      ZOrder		      -2
@@ -4066,7 +4067,7 @@ Model {
 	      ZOrder		      1
 	      SrcBlock		      "Mux1"
 	      SrcPort		      1
-	      DstBlock		      "Direção Força\nSGF"
+	      DstBlock		      "DireÃ§Ã£o ForÃ§a\nSGF"
 	      DstPort		      1
 	    }
 	    Line {
@@ -4103,7 +4104,7 @@ Model {
 	    }
 	    Line {
 	      ZOrder		      7
-	      SrcBlock		      "Direção Força\nMRF"
+	      SrcBlock		      "DireÃ§Ã£o ForÃ§a\nMRF"
 	      SrcPort		      1
 	      DstBlock		      "Demux"
 	      DstPort		      1
@@ -4306,7 +4307,7 @@ Model {
 	  maxzero		  "0"
 	  Port {
 	    PortNumber		    1
-	    Name		    "Direção da\nForça"
+	    Name		    "DireÃ§Ã£o da\nForÃ§a"
 	  }
 	}
 	Block {
@@ -5157,24 +5158,24 @@ Model {
 	  IconDisplay		  "Port number"
 	}
 	Line {
-	  Name			  "Direção da\nForça"
+	  Name			  "DireÃ§Ã£o da\nForÃ§a"
 	  ZOrder		  1
 	  Labels		  [1, 1]
 	  SrcBlock		  "Normalize Vector"
 	  SrcPort		  1
-	  DstBlock		  "Direção da Força SGF"
+	  DstBlock		  "DireÃ§Ã£o da ForÃ§a SGF"
 	  DstPort		  1
 	}
 	Line {
 	  ZOrder		  2
-	  SrcBlock		  "Direção da Força SGF"
+	  SrcBlock		  "DireÃ§Ã£o da ForÃ§a SGF"
 	  SrcPort		  1
-	  DstBlock		  "Calculo da Posição no Corpo"
+	  DstBlock		  "Calculo da PosiÃ§Ã£o no Corpo"
 	  DstPort		  1
 	}
 	Line {
 	  ZOrder		  3
-	  SrcBlock		  "Calculo da Posição no Corpo"
+	  SrcBlock		  "Calculo da PosiÃ§Ã£o no Corpo"
 	  SrcPort		  1
 	  DstBlock		  "Goto2"
 	  DstPort		  1
@@ -5204,18 +5205,18 @@ Model {
 	  Branch {
 	    ZOrder		    8
 	    Points		    [0, 500]
-	    DstBlock		    "Calculo da Posição no Corpo2"
+	    DstBlock		    "Calculo da PosiÃ§Ã£o no Corpo2"
 	    DstPort		    3
 	  }
 	  Branch {
 	    ZOrder		    9
-	    DstBlock		    "Direção da Força SGF"
+	    DstBlock		    "DireÃ§Ã£o da ForÃ§a SGF"
 	    DstPort		    2
 	  }
 	}
 	Line {
 	  ZOrder		  10
-	  SrcBlock		  "Calculo da Posição no Corpo2"
+	  SrcBlock		  "Calculo da PosiÃ§Ã£o no Corpo2"
 	  SrcPort		  1
 	  DstBlock		  "Product1"
 	  DstPort		  1
@@ -5260,13 +5261,13 @@ Model {
 	    Branch {
 	      ZOrder		      18
 	      Points		      [0, 145]
-	      DstBlock		      "Calculo da Posição no Corpo2"
+	      DstBlock		      "Calculo da PosiÃ§Ã£o no Corpo2"
 	      DstPort		      1
 	    }
 	  }
 	  Branch {
 	    ZOrder		    19
-	    DstBlock		    "Calculo da Posição no Corpo"
+	    DstBlock		    "Calculo da PosiÃ§Ã£o no Corpo"
 	    DstPort		    2
 	  }
 	}
@@ -5327,7 +5328,7 @@ Model {
 	  }
 	  Branch {
 	    ZOrder		    28
-	    DstBlock		    "Calculo da Posição no Corpo2"
+	    DstBlock		    "Calculo da PosiÃ§Ã£o no Corpo2"
 	    DstPort		    2
 	  }
 	}
@@ -7784,7 +7785,7 @@ Model {
 	}
 	Block {
 	  BlockType		  SubSystem
-	  Name			  "Matrix de Rotação em X"
+	  Name			  "Matrix de RotaÃ§Ã£o em X"
 	  SID			  "1185"
 	  Ports			  [1, 1]
 	  Position		  [190, 499, 445, 561]
@@ -7792,7 +7793,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  ContentPreviewEnabled	  on
 	  System {
-	    Name		    "Matrix de Rotação em X"
+	    Name		    "Matrix de RotaÃ§Ã£o em X"
 	    Location		    [-7, -7, 1543, 831]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -7918,7 +7919,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "Matrix Rotação\n em X"
+	      Name		      "Matrix RotaÃ§Ã£o\n em X"
 	      SID		      "1187"
 	      Position		      [465, 143, 495, 157]
 	      ZOrder		      -2
@@ -8034,14 +8035,14 @@ Model {
 	      ZOrder		      28
 	      SrcBlock		      "Create 3x3 Matrix"
 	      SrcPort		      1
-	      DstBlock		      "Matrix Rotação\n em X"
+	      DstBlock		      "Matrix RotaÃ§Ã£o\n em X"
 	      DstPort		      1
 	    }
 	  }
 	}
 	Block {
 	  BlockType		  SubSystem
-	  Name			  "Matrix de Rotação em Y"
+	  Name			  "Matrix de RotaÃ§Ã£o em Y"
 	  SID			  "1203"
 	  Ports			  [1, 1]
 	  Position		  [190, 604, 445, 666]
@@ -8049,7 +8050,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  ContentPreviewEnabled	  on
 	  System {
-	    Name		    "Matrix de Rotação em Y"
+	    Name		    "Matrix de RotaÃ§Ã£o em Y"
 	    Location		    [-7, -7, 1543, 831]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -8175,7 +8176,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "Matrix Rotação\n em Y"
+	      Name		      "Matrix RotaÃ§Ã£o\n em Y"
 	      SID		      "1216"
 	      Position		      [465, 143, 495, 157]
 	      ZOrder		      -2
@@ -8185,7 +8186,7 @@ Model {
 	      ZOrder		      18
 	      SrcBlock		      "Create 3x3 Matrix"
 	      SrcPort		      1
-	      DstBlock		      "Matrix Rotação\n em Y"
+	      DstBlock		      "Matrix RotaÃ§Ã£o\n em Y"
 	      DstPort		      1
 	    }
 	    Line {
@@ -8298,7 +8299,7 @@ Model {
 	}
 	Block {
 	  BlockType		  SubSystem
-	  Name			  "Matrix de Rotação em Z"
+	  Name			  "Matrix de RotaÃ§Ã£o em Z"
 	  SID			  "1222"
 	  Ports			  [1, 1]
 	  Position		  [190, 709, 445, 771]
@@ -8306,7 +8307,7 @@ Model {
 	  RequestExecContextInheritance	off
 	  ContentPreviewEnabled	  on
 	  System {
-	    Name		    "Matrix de Rotação em Z"
+	    Name		    "Matrix de RotaÃ§Ã£o em Z"
 	    Location		    [-7, -7, 1543, 831]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -8432,7 +8433,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "Matrix Rotação\n em Z"
+	      Name		      "Matrix RotaÃ§Ã£o\n em Z"
 	      SID		      "1235"
 	      Position		      [660, 178, 690, 192]
 	      ZOrder		      -2
@@ -8442,7 +8443,7 @@ Model {
 	      ZOrder		      1
 	      SrcBlock		      "Create 3x3 Matrix"
 	      SrcPort		      1
-	      DstBlock		      "Matrix Rotação\n em Z"
+	      DstBlock		      "Matrix RotaÃ§Ã£o\n em Z"
 	      DstPort		      1
 	    }
 	    Line {
@@ -8587,26 +8588,26 @@ Model {
 	  ZOrder		  8
 	  SrcBlock		  "Demux2"
 	  SrcPort		  1
-	  DstBlock		  "Matrix de Rotação em X"
+	  DstBlock		  "Matrix de RotaÃ§Ã£o em X"
 	  DstPort		  1
 	}
 	Line {
 	  ZOrder		  9
 	  SrcBlock		  "Demux2"
 	  SrcPort		  2
-	  DstBlock		  "Matrix de Rotação em Y"
+	  DstBlock		  "Matrix de RotaÃ§Ã£o em Y"
 	  DstPort		  1
 	}
 	Line {
 	  ZOrder		  10
 	  SrcBlock		  "Demux2"
 	  SrcPort		  3
-	  DstBlock		  "Matrix de Rotação em Z"
+	  DstBlock		  "Matrix de RotaÃ§Ã£o em Z"
 	  DstPort		  1
 	}
 	Line {
 	  ZOrder		  11
-	  SrcBlock		  "Matrix de Rotação em X"
+	  SrcBlock		  "Matrix de RotaÃ§Ã£o em X"
 	  SrcPort		  1
 	  Points		  [63, 0; 0, 45]
 	  DstBlock		  "Matrix Multiply1"
@@ -8614,7 +8615,7 @@ Model {
 	}
 	Line {
 	  ZOrder		  12
-	  SrcBlock		  "Matrix de Rotação em Y"
+	  SrcBlock		  "Matrix de RotaÃ§Ã£o em Y"
 	  SrcPort		  1
 	  Points		  [63, 0; 0, -40]
 	  DstBlock		  "Matrix Multiply1"
@@ -8630,7 +8631,7 @@ Model {
 	}
 	Line {
 	  ZOrder		  14
-	  SrcBlock		  "Matrix de Rotação em Z"
+	  SrcBlock		  "Matrix de RotaÃ§Ã£o em Z"
 	  SrcPort		  1
 	  Points		  [140, 0; 0, -50]
 	  DstBlock		  "Matrix Multiply2"
@@ -8674,7 +8675,7 @@ Model {
 	ZoomFactor		"60"
 	Block {
 	  BlockType		  Inport
-	  Name			  "Posição"
+	  Name			  "PosiÃ§Ã£o"
 	  SID			  "151"
 	  Position		  [-50, 255, -20, 275]
 	  ZOrder		  437
@@ -9637,7 +9638,7 @@ Model {
 	    ZoomFactor		    "100"
 	    Block {
 	      BlockType		      Inport
-	      Name		      "Posição_SGF"
+	      Name		      "PosiÃ§Ã£o_SGF"
 	      SID		      "206"
 	      Position		      [480, 313, 510, 327]
 	      ZOrder		      -1
@@ -9705,7 +9706,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Reference
-	      Name		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      Name		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      SID		      "214"
 	      Ports		      [9, 1]
 	      Position		      [100, 56, 260, 464]
@@ -9719,12 +9720,12 @@ Model {
 	      aMode		      "aMode"
 	      Port {
 		PortNumber		1
-		Name			"Matriz de Rotação"
+		Name			"Matriz de RotaÃ§Ã£o"
 	      }
 	    }
 	    Block {
 	      BlockType		      Reference
-	      Name		      "Rotação\nda\nTerra"
+	      Name		      "RotaÃ§Ã£o\nda\nTerra"
 	      SID		      "215"
 	      Ports		      [0, 1]
 	      Position		      [-260, 155, -230, 185]
@@ -9788,7 +9789,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "Posição_SGG"
+	      Name		      "PosiÃ§Ã£o_SGG"
 	      SID		      "221"
 	      Position		      [795, 263, 825, 277]
 	      ZOrder		      -2
@@ -9796,7 +9797,7 @@ Model {
 	    }
 	    Line {
 	      ZOrder		      1
-	      SrcBlock		      "Rotação\nda\nTerra"
+	      SrcBlock		      "RotaÃ§Ã£o\nda\nTerra"
 	      SrcPort		      1
 	      DstBlock		      "Gain"
 	      DstPort		      1
@@ -9805,14 +9806,14 @@ Model {
 	      ZOrder		      2
 	      SrcBlock		      "product 2"
 	      SrcPort		      1
-	      DstBlock		      "Posição_SGG"
+	      DstBlock		      "PosiÃ§Ã£o_SGG"
 	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      3
 	      SrcBlock		      "Trigonometric\nFunction1"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      1
 	    }
 	    Line {
@@ -9826,70 +9827,70 @@ Model {
 	      ZOrder		      5
 	      SrcBlock		      "Gain1"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      2
 	    }
 	    Line {
 	      ZOrder		      6
 	      SrcBlock		      "Constant1"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      3
 	    }
 	    Line {
 	      ZOrder		      7
 	      SrcBlock		      "Trigonometric\nFunction2"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      4
 	    }
 	    Line {
 	      ZOrder		      8
 	      SrcBlock		      "Trigonometric\nFunction3"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      5
 	    }
 	    Line {
 	      ZOrder		      9
 	      SrcBlock		      "Constant2"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      6
 	    }
 	    Line {
 	      ZOrder		      10
 	      SrcBlock		      "Constant3"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      7
 	    }
 	    Line {
 	      ZOrder		      11
 	      SrcBlock		      "Constant4"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      8
 	    }
 	    Line {
 	      ZOrder		      12
 	      SrcBlock		      "Constant5"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      9
 	    }
 	    Line {
-	      Name		      "Matriz de Rotação"
+	      Name		      "Matriz de RotaÃ§Ã£o"
 	      ZOrder		      13
 	      Labels		      [1, 1]
-	      SrcBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      SrcBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      SrcPort		      1
 	      DstBlock		      "product 2"
 	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      14
-	      SrcBlock		      "Posição_SGF"
+	      SrcBlock		      "PosiÃ§Ã£o_SGF"
 	      SrcPort		      1
 	      Points		      [65, 0; 0, -45]
 	      DstBlock		      "product 2"
@@ -9962,7 +9963,7 @@ Model {
 	    ZoomFactor		    "100"
 	    Block {
 	      BlockType		      Inport
-	      Name		      "Posição_SGG"
+	      Name		      "PosiÃ§Ã£o_SGG"
 	      SID		      "223"
 	      Position		      [480, 313, 510, 327]
 	      ZOrder		      -1
@@ -10038,7 +10039,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Reference
-	      Name		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      Name		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      SID		      "232"
 	      Ports		      [9, 1]
 	      Position		      [100, 56, 260, 464]
@@ -10052,7 +10053,7 @@ Model {
 	      aMode		      "aMode"
 	      Port {
 		PortNumber		1
-		Name			"Matriz de Rotação"
+		Name			"Matriz de RotaÃ§Ã£o"
 	      }
 	    }
 	    Block {
@@ -10103,7 +10104,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Outport
-	      Name		      "Posição_SMG"
+	      Name		      "PosiÃ§Ã£o_SMG"
 	      SID		      "238"
 	      Position		      [795, 263, 825, 277]
 	      ZOrder		      -2
@@ -10120,7 +10121,7 @@ Model {
 	      ZOrder		      2
 	      SrcBlock		      "product 2"
 	      SrcPort		      1
-	      DstBlock		      "Posição_SMG"
+	      DstBlock		      "PosiÃ§Ã£o_SMG"
 	      DstPort		      1
 	    }
 	    Line {
@@ -10131,17 +10132,17 @@ Model {
 	      DstPort		      1
 	    }
 	    Line {
-	      Name		      "Matriz de Rotação"
+	      Name		      "Matriz de RotaÃ§Ã£o"
 	      ZOrder		      4
 	      Labels		      [1, 1]
-	      SrcBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      SrcBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      SrcPort		      1
 	      DstBlock		      "product 2"
 	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      5
-	      SrcBlock		      "Posição_SGG"
+	      SrcBlock		      "PosiÃ§Ã£o_SGG"
 	      SrcPort		      1
 	      Points		      [65, 0; 0, -45]
 	      DstBlock		      "product 2"
@@ -10151,63 +10152,63 @@ Model {
 	      ZOrder		      6
 	      SrcBlock		      "Constant5"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      7
 	      SrcBlock		      "Constant2"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      2
 	    }
 	    Line {
 	      ZOrder		      8
 	      SrcBlock		      "Constant3"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      3
 	    }
 	    Line {
 	      ZOrder		      9
 	      SrcBlock		      "Constant4"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      4
 	    }
 	    Line {
 	      ZOrder		      10
 	      SrcBlock		      "Trigonometric\nFunction1"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      5
 	    }
 	    Line {
 	      ZOrder		      11
 	      SrcBlock		      "Gain1"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      6
 	    }
 	    Line {
 	      ZOrder		      12
 	      SrcBlock		      "Constant1"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      7
 	    }
 	    Line {
 	      ZOrder		      13
 	      SrcBlock		      "Trigonometric\nFunction2"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      8
 	    }
 	    Line {
 	      ZOrder		      14
 	      SrcBlock		      "Trigonometric\nFunction3"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      9
 	    }
 	    Line {
@@ -10354,7 +10355,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Reference
-	      Name		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      Name		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      SID		      "249"
 	      Ports		      [9, 1]
 	      Position		      [100, 56, 260, 464]
@@ -10368,7 +10369,7 @@ Model {
 	      aMode		      "aMode"
 	      Port {
 		PortNumber		1
-		Name			"Matriz de Rotação"
+		Name			"Matriz de RotaÃ§Ã£o"
 	      }
 	    }
 	    Block {
@@ -10447,10 +10448,10 @@ Model {
 	      DstPort		      1
 	    }
 	    Line {
-	      Name		      "Matriz de Rotação"
+	      Name		      "Matriz de RotaÃ§Ã£o"
 	      ZOrder		      4
 	      Labels		      [1, 1]
-	      SrcBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      SrcBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      SrcPort		      1
 	      DstBlock		      "product 2"
 	      DstPort		      1
@@ -10467,63 +10468,63 @@ Model {
 	      ZOrder		      6
 	      SrcBlock		      "Constant5"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      7
 	      SrcBlock		      "Constant2"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      2
 	    }
 	    Line {
 	      ZOrder		      8
 	      SrcBlock		      "Constant3"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      3
 	    }
 	    Line {
 	      ZOrder		      9
 	      SrcBlock		      "Constant4"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      4
 	    }
 	    Line {
 	      ZOrder		      10
 	      SrcBlock		      "Trigonometric\nFunction1"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      5
 	    }
 	    Line {
 	      ZOrder		      11
 	      SrcBlock		      "Gain1"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      6
 	    }
 	    Line {
 	      ZOrder		      12
 	      SrcBlock		      "Constant1"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      7
 	    }
 	    Line {
 	      ZOrder		      13
 	      SrcBlock		      "Trigonometric\nFunction2"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      8
 	    }
 	    Line {
 	      ZOrder		      14
 	      SrcBlock		      "Trigonometric\nFunction3"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      9
 	    }
 	    Line {
@@ -10662,7 +10663,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      Reference
-	      Name		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      Name		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      SID		      "265"
 	      Ports		      [9, 1]
 	      Position		      [100, 56, 260, 464]
@@ -10676,12 +10677,12 @@ Model {
 	      aMode		      "aMode"
 	      Port {
 		PortNumber		1
-		Name			"Matriz de Rotação"
+		Name			"Matriz de RotaÃ§Ã£o"
 	      }
 	    }
 	    Block {
 	      BlockType		      Reference
-	      Name		      "Rotação\nda\nTerra"
+	      Name		      "RotaÃ§Ã£o\nda\nTerra"
 	      SID		      "266"
 	      Ports		      [0, 1]
 	      Position		      [-260, 155, -230, 185]
@@ -10753,7 +10754,7 @@ Model {
 	    }
 	    Line {
 	      ZOrder		      1
-	      SrcBlock		      "Rotação\nda\nTerra"
+	      SrcBlock		      "RotaÃ§Ã£o\nda\nTerra"
 	      SrcPort		      1
 	      DstBlock		      "Gain"
 	      DstPort		      1
@@ -10769,7 +10770,7 @@ Model {
 	      ZOrder		      3
 	      SrcBlock		      "Trigonometric\nFunction1"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      1
 	    }
 	    Line {
@@ -10783,63 +10784,63 @@ Model {
 	      ZOrder		      5
 	      SrcBlock		      "Gain1"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      2
 	    }
 	    Line {
 	      ZOrder		      6
 	      SrcBlock		      "Constant1"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      3
 	    }
 	    Line {
 	      ZOrder		      7
 	      SrcBlock		      "Trigonometric\nFunction2"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      4
 	    }
 	    Line {
 	      ZOrder		      8
 	      SrcBlock		      "Trigonometric\nFunction3"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      5
 	    }
 	    Line {
 	      ZOrder		      9
 	      SrcBlock		      "Constant2"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      6
 	    }
 	    Line {
 	      ZOrder		      10
 	      SrcBlock		      "Constant3"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      7
 	    }
 	    Line {
 	      ZOrder		      11
 	      SrcBlock		      "Constant4"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      8
 	    }
 	    Line {
 	      ZOrder		      12
 	      SrcBlock		      "Constant5"
 	      SrcPort		      1
-	      DstBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      DstBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      DstPort		      9
 	    }
 	    Line {
-	      Name		      "Matriz de Rotação"
+	      Name		      "Matriz de RotaÃ§Ã£o"
 	      ZOrder		      13
 	      Labels		      [1, 1]
-	      SrcBlock		      "Matriz Rotação ao Redor de Z\nAntihorária"
+	      SrcBlock		      "Matriz RotaÃ§Ã£o ao Redor de Z\nAntihorÃ¡ria"
 	      SrcPort		      1
 	      DstBlock		      "product 2"
 	      DstPort		      1
@@ -12015,7 +12016,7 @@ Model {
 	}
 	Line {
 	  ZOrder		  9
-	  SrcBlock		  "Posição"
+	  SrcBlock		  "PosiÃ§Ã£o"
 	  SrcPort		  1
 	  Points		  [43, 0]
 	  Branch {
@@ -12354,7 +12355,7 @@ Model {
 		  BlockType		  S-Function
 		  Name			  " SFunction "
 		  SID			  "1294::19"
-		  Tag			  "Stateflow S-Function Simulacao_TCC_Final 1"
+		  Tag			  "Stateflow S-Function dynamic_simulator 1"
 		  Ports			  [1, 2]
 		  Position		  [180, 100, 230, 160]
 		  ZOrder		  10
@@ -15735,7 +15736,7 @@ Model {
 	ZoomFactor		"80"
 	Block {
 	  BlockType		  Inport
-	  Name			  "Posição"
+	  Name			  "PosiÃ§Ã£o"
 	  SID			  "911"
 	  Position		  [-190, 48, -160, 62]
 	  ZOrder		  -1
@@ -15763,14 +15764,14 @@ Model {
 	}
 	Block {
 	  BlockType		  SubSystem
-	  Name			  "Calculo da Posição no Corpo"
+	  Name			  "Calculo da PosiÃ§Ã£o no Corpo"
 	  SID			  "914"
 	  Ports			  [2, 1]
 	  Position		  [-95, 34, 30, 116]
 	  ZOrder		  1111
 	  RequestExecContextInheritance	off
 	  System {
-	    Name		    "Calculo da Posição no Corpo"
+	    Name		    "Calculo da PosiÃ§Ã£o no Corpo"
 	    Location		    [-7, -7, 1543, 831]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
@@ -15856,7 +15857,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      SubSystem
-	      Name		      "Matrix de Rotação em X"
+	      Name		      "Matrix de RotaÃ§Ã£o em X"
 	      SID		      "1243"
 	      Ports		      [1, 1]
 	      Position		      [270, 294, 525, 356]
@@ -15864,7 +15865,7 @@ Model {
 	      RequestExecContextInheritance off
 	      ContentPreviewEnabled   on
 	      System {
-		Name			"Matrix de Rotação em X"
+		Name			"Matrix de RotaÃ§Ã£o em X"
 		Location		[-7, -7, 1543, 831]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -15990,7 +15991,7 @@ Model {
 		}
 		Block {
 		  BlockType		  Outport
-		  Name			  "Matrix Rotação\n em X"
+		  Name			  "Matrix RotaÃ§Ã£o\n em X"
 		  SID			  "1256"
 		  Position		  [465, 143, 495, 157]
 		  ZOrder		  -2
@@ -16106,14 +16107,14 @@ Model {
 		  ZOrder		  18
 		  SrcBlock		  "Create 3x3 Matrix"
 		  SrcPort		  1
-		  DstBlock		  "Matrix Rotação\n em X"
+		  DstBlock		  "Matrix RotaÃ§Ã£o\n em X"
 		  DstPort		  1
 		}
 	      }
 	    }
 	    Block {
 	      BlockType		      SubSystem
-	      Name		      "Matrix de Rotação em Y"
+	      Name		      "Matrix de RotaÃ§Ã£o em Y"
 	      SID		      "1257"
 	      Ports		      [1, 1]
 	      Position		      [270, 399, 525, 461]
@@ -16121,7 +16122,7 @@ Model {
 	      RequestExecContextInheritance off
 	      ContentPreviewEnabled   on
 	      System {
-		Name			"Matrix de Rotação em Y"
+		Name			"Matrix de RotaÃ§Ã£o em Y"
 		Location		[-7, -7, 1543, 831]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -16247,7 +16248,7 @@ Model {
 		}
 		Block {
 		  BlockType		  Outport
-		  Name			  "Matrix Rotação\n em Y"
+		  Name			  "Matrix RotaÃ§Ã£o\n em Y"
 		  SID			  "1270"
 		  Position		  [465, 143, 495, 157]
 		  ZOrder		  -2
@@ -16257,7 +16258,7 @@ Model {
 		  ZOrder		  1
 		  SrcBlock		  "Create 3x3 Matrix"
 		  SrcPort		  1
-		  DstBlock		  "Matrix Rotação\n em Y"
+		  DstBlock		  "Matrix RotaÃ§Ã£o\n em Y"
 		  DstPort		  1
 		}
 		Line {
@@ -16370,7 +16371,7 @@ Model {
 	    }
 	    Block {
 	      BlockType		      SubSystem
-	      Name		      "Matrix de Rotação em Z"
+	      Name		      "Matrix de RotaÃ§Ã£o em Z"
 	      SID		      "1271"
 	      Ports		      [1, 1]
 	      Position		      [270, 504, 525, 566]
@@ -16378,7 +16379,7 @@ Model {
 	      RequestExecContextInheritance off
 	      ContentPreviewEnabled   on
 	      System {
-		Name			"Matrix de Rotação em Z"
+		Name			"Matrix de RotaÃ§Ã£o em Z"
 		Location		[-7, -7, 1543, 831]
 		Open			off
 		PortBlocksUseCompactNotation off
@@ -16504,7 +16505,7 @@ Model {
 		}
 		Block {
 		  BlockType		  Outport
-		  Name			  "Matrix Rotação\n em Z"
+		  Name			  "Matrix RotaÃ§Ã£o\n em Z"
 		  SID			  "1284"
 		  Position		  [660, 178, 690, 192]
 		  ZOrder		  -2
@@ -16514,7 +16515,7 @@ Model {
 		  ZOrder		  1
 		  SrcBlock		  "Create 3x3 Matrix"
 		  SrcPort		  1
-		  DstBlock		  "Matrix Rotação\n em Z"
+		  DstBlock		  "Matrix RotaÃ§Ã£o\n em Z"
 		  DstPort		  1
 		}
 		Line {
@@ -16650,7 +16651,7 @@ Model {
 	    }
 	    Line {
 	      ZOrder		      37
-	      SrcBlock		      "Matrix de Rotação em X"
+	      SrcBlock		      "Matrix de RotaÃ§Ã£o em X"
 	      SrcPort		      1
 	      Points		      [63, 0; 0, 45]
 	      DstBlock		      "Matrix Multiply1"
@@ -16667,12 +16668,12 @@ Model {
 	      ZOrder		      39
 	      SrcBlock		      "Demux1"
 	      SrcPort		      3
-	      DstBlock		      "Matrix de Rotação em Z"
+	      DstBlock		      "Matrix de RotaÃ§Ã£o em Z"
 	      DstPort		      1
 	    }
 	    Line {
 	      ZOrder		      40
-	      SrcBlock		      "Matrix de Rotação em Z"
+	      SrcBlock		      "Matrix de RotaÃ§Ã£o em Z"
 	      SrcPort		      1
 	      Points		      [140, 0; 0, -50]
 	      DstBlock		      "Matrix Multiply2"
@@ -16680,7 +16681,7 @@ Model {
 	    }
 	    Line {
 	      ZOrder		      41
-	      SrcBlock		      "Matrix de Rotação em Y"
+	      SrcBlock		      "Matrix de RotaÃ§Ã£o em Y"
 	      SrcPort		      1
 	      Points		      [63, 0; 0, -40]
 	      DstBlock		      "Matrix Multiply1"
@@ -16690,7 +16691,7 @@ Model {
 	      ZOrder		      42
 	      SrcBlock		      "Demux1"
 	      SrcPort		      2
-	      DstBlock		      "Matrix de Rotação em Y"
+	      DstBlock		      "Matrix de RotaÃ§Ã£o em Y"
 	      DstPort		      1
 	    }
 	    Line {
@@ -16712,7 +16713,7 @@ Model {
 	      ZOrder		      45
 	      SrcBlock		      "Demux1"
 	      SrcPort		      1
-	      DstBlock		      "Matrix de Rotação em X"
+	      DstBlock		      "Matrix de RotaÃ§Ã£o em X"
 	      DstPort		      1
 	    }
 	  }
@@ -16870,12 +16871,12 @@ Model {
 	  ZOrder		  1
 	  SrcBlock		  "Euler"
 	  SrcPort		  1
-	  DstBlock		  "Calculo da Posição no Corpo"
+	  DstBlock		  "Calculo da PosiÃ§Ã£o no Corpo"
 	  DstPort		  2
 	}
 	Line {
 	  ZOrder		  2
-	  SrcBlock		  "Calculo da Posição no Corpo"
+	  SrcBlock		  "Calculo da PosiÃ§Ã£o no Corpo"
 	  SrcPort		  1
 	  Points		  [18, 0]
 	  Branch {
@@ -16907,7 +16908,7 @@ Model {
 	}
 	Line {
 	  ZOrder		  7
-	  SrcBlock		  "Posição"
+	  SrcBlock		  "PosiÃ§Ã£o"
 	  SrcPort		  1
 	  Points		  [35, 0]
 	  Branch {
@@ -16927,7 +16928,7 @@ Model {
 	  }
 	  Branch {
 	    ZOrder		    11
-	    DstBlock		    "Calculo da Posição no Corpo"
+	    DstBlock		    "Calculo da PosiÃ§Ã£o no Corpo"
 	    DstPort		    1
 	  }
 	}
@@ -17069,7 +17070,7 @@ Model {
 	Annotation {
 	  SID			  "1006"
 	  Name			  "Vetor Nadir"
-	  Position		  [217, 46, 269, 60]
+	  Position		  [217, 46, 270, 61]
 	  InternalMargins	  [0, 0, 0, 0]
 	  ZOrder		  -1
 	}
@@ -17344,7 +17345,7 @@ Model {
 		  BlockType		  S-Function
 		  Name			  " SFunction "
 		  SID			  "472::19"
-		  Tag			  "Stateflow S-Function Simulacao_TCC_Final 2"
+		  Tag			  "Stateflow S-Function dynamic_simulator 2"
 		  Ports			  [6, 2]
 		  Position		  [180, 107, 230, 248]
 		  ZOrder		  10
@@ -17763,7 +17764,7 @@ Model {
 	}
 	Block {
 	  BlockType		  Constant
-	  Name			  "Imãs"
+	  Name			  "ImÃ£s"
 	  SID			  "458"
 	  Position		  [275, 36, 410, 64]
 	  ZOrder		  1118
@@ -17791,7 +17792,7 @@ Model {
 	}
 	Line {
 	  ZOrder		  5
-	  SrcBlock		  "Imãs"
+	  SrcBlock		  "ImÃ£s"
 	  SrcPort		  1
 	  Points		  [70, 0; 0, 75]
 	  DstBlock		  "Cross Product"
@@ -17807,7 +17808,7 @@ Model {
 	Annotation {
 	  SID			  "427"
 	  Name			  "T = m X B"
-	  Position		  [642, 108, 715, 128]
+	  Position		  [642, 108, 715, 129]
 	  InternalMargins	  [0, 0, 0, 0]
 	  HorizontalAlignment	  "center"
 	  VerticalAlignment	  "middle"
@@ -18505,7 +18506,7 @@ Model {
 	    Annotation {
 	      SID		      "729"
 	      Name		      "Euler's Angles"
-	      Position		      [656, 120, 720, 134]
+	      Position		      [656, 120, 721, 135]
 	      InternalMargins	      [0, 0, 0, 0]
 	      ZOrder		      -1
 	    }
@@ -20042,6 +20043,25 @@ Model {
       DstBlock		      "Aerodynamic Torque"
       DstPort		      1
     }
+    Annotation {
+      SID		      "2451"
+      Name		      "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+      "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }"
+      "\n</style></head><body style=\" font-family:'Helvetica'; font-size:10px; font-weight:400; font-style:normal;\">\n"
+      "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inden"
+      "t:0px;\"><span style=\" font-size:16px;\">Author: Lucas Casaril </span></p>\n<p style=\" margin-top:0px; margin-"
+      "bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:1"
+      "6px;\">Contact: (eng@lucascasaril.me)</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px"
+      "; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16px;\">More Information: ht"
+      "tps://www.lucascasaril.me/dynamic-simulator</span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; mar"
+      "gin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16px;\"><br />"
+      "</p></body></html>"
+      Position		      [444, -22, 1106, 63]
+      InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      on
+      FixedWidth	      on
+      Interpreter	      "rich"
+    }
   }
 }
 #Finite State Machines
@@ -20052,7 +20072,7 @@ Model {
 Stateflow {
   machine {
     id			    1
-    name		    "Simulacao_TCC_Final"
+    name		    "dynamic_simulator"
     created		    "23-May-2019 12:57:29"
     isLibrary		    0
     sfVersion		    80000014
